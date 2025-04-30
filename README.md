@@ -12,7 +12,7 @@
 
 Ключі поділяються на:
 
-- Приватний ключ (private_key.pem) — застосовується виключно для створення підпису. Його необхідно зберігати у надійному та недоступному для сторонніх місці, оскільки компрометація цього ключа означає втрату довіри до підписів.
+- Приватний ключ (private_key.pem) — застосовується виключно для створення підпису. Його необхідно зберігати у надійному та недоступному для сторонніх місці.
 
 - Публічний ключ (public_key.pem) — використовується для верифікації підпису. Цей ключ може бути відкрито розповсюджений разом із підписаними зображеннями.
 
@@ -63,15 +63,15 @@ project/
 
 Встановлення залежностей
 
-<pre lang="markdown"> ```bash pip install -r requirements.txt ``` </pre>
+<pre lang="markdown"> ``` pip install -r requirements.txt ``` </pre>
 
 ### Підписування зображення
 
-<pre lang="markdown"> ```bash python sign_image.py ``` </pre>
+<pre lang="markdown"> ``` python sign_image.py ``` </pre>
 
 ### Перевірка підпису
 
-<pre lang="markdown"> ```bash python verify_signature.py ``` </pre>
+<pre lang="markdown"> ``` python verify_signature.py ``` </pre>
 
 
 ## Інноваційність рішення
