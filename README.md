@@ -63,15 +63,15 @@ project/
 
 Встановлення залежностей
 
-<pre lang="markdown"> pip install -r requirements.txt </pre>
+<pre lang="markdown">pip install -r requirements.txt</pre>
 
 ### Підписування зображення
 
-<pre lang="markdown">  python sign_image.py  </pre>
+<pre lang="markdown">python sign_image.py</pre>
 
 ### Перевірка підпису
 
-<pre lang="markdown">  python verify_signature.py  </pre>
+<pre lang="markdown">python verify_signature.py</pre>
 
 
 ## Інноваційність рішення
